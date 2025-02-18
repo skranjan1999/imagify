@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    /* background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+    padding: 1px;
+    display: flex;
+    justify-content:space-around;
+}
+.nav-logo{
+    height:70px;
+    width: 110px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    
+}
+.pricing{
+    padding: auto;
+
+
+}
+
+.login{
+    padding: auto;
+
+}
+
+.credit-left{
+    display:flex;
+    justify-content: space-around;
+    gap:10px;
+}
+.credit-img{
+    width:5;
+}
+
+
+.profile-icon{
+    width:15%;
+}
+
+.logout{
+    display: flex;
+}

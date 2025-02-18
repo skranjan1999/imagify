@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.des-heading{
+    font-size: 2rem;
+    color:black;
+    font-weight: 600;
+}
+.des-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    margin-inline: 10%;
+
+}
+
+.des-container-inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+#p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align:center;
+}
+.img{
+    height: 50%;
+    width: 40%;
+}
