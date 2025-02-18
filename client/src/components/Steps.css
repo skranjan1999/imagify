@@ -28,6 +28,7 @@
         border: 2px solid #e5e7eb;
         cursor: pointer;
         transition: all 300ms;
+        border-radius: 20px;
       }
       
       .steps-des:hover {
