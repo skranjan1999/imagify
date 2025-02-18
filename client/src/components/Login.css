@@ -1,0 +1,66 @@
+.login-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form {
+    position: relative;
+    background-color: #ffffff;
+    padding: 2rem; /* 40px */
+    border-radius: 0.75rem; /* 12px */
+    color: #64748b;
+  }
+  .form-heading {
+    text-align: center;
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem;  /* 32px */
+    color: #404040;
+    font-weight: 500;
+  }
+  
+  .form-fill-blanks {
+    border: 1px solid #e5e7eb;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    margin-top: 1.25rem;
+  }
+  .forget-password {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    color: #2563eb;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .create-button {
+    background-color: #2563eb;
+    width: 100%;
+    color: #ffffff;
+    padding: 0.5rem 0;
+    border-radius: 9999px;
+    cursor: pointer;
+  }
+
+  .cross-icon{
+    
+        position: absolute;
+        top: 1.25rem; /* 20px */
+        right: 1.25rem; /* 20px */
+        cursor: pointer;
+  }
+  
+  
+  
+  
+  
